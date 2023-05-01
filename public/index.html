@@ -1,0 +1,464 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TailGrids</title>
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="./css/app.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!--Header-->
+    <header class="bg-new-primary py-2 text-white">
+        <!--Container-->
+        <div class="container flex items-center justify-between relative">
+            <!--Logo-->
+            <a href="#" class="pl-4">
+                <img src="./images/logo.png" class="" alt="">
+            </a>
+            <!--Mobile Menu-->
+            <div class="block md:hidden menuOpen">
+                <div class="space-y-1 cursor-pointer pr-4">
+                    <div class="bg-white w-8 h-1 rounded-full"></div>
+                    <div class="bg-white w-8 h-1 rounded-full"></div>
+                    <div class="bg-white w-8 h-1 rounded-full"></div>
+                    <span class="sr-only">Menü Aç</span>
+                </div>
+            </div>
+            <!--Navigation-->
+            <nav class="bg-gray-900 absolute top-14 w-full md:relative md:flex md:items-center md:bg-transparent md:w-auto md:top-0 md:space-x-8 md:mr-4 flex-1 hidden"
+                id="menu">
+                <!--Menu-->
+                <div class="flex flex-col md:flex-row md:gap-x-4 md:flex-1 justify-center">
+                    <a href="#"
+                        class="py-2 border-b border-new-gray pl-3 md:pl-0 hover:underline md:boder-0 md:border-transparent">Home</a>
+                    <a href="#"
+                        class="py-2 border-b border-new-gray pl-3 md:pl-0 hover:underline md:boder-0 md:border-transparent">Features</a>
+                    <a href="#"
+                        class="py-2 border-b border-new-gray pl-3 md:pl-0 hover:underline md:boder-0 md:border-transparent">Team</a>
+                    <a href="#"
+                        class="py-2 border-b border-new-gray pl-3 md:pl-0 hover:underline md:boder-0 md:border-transparent">Pricing</a>
+                    <a href="#"
+                        class="py-2 border-b border-new-gray pl-3 md:pl-0 hover:underline md:boder-0 md:border-transparent">Contact</a>
+                </div>
+                <div class="pl-3 py-2 flex items-center space-x-5 md:pl-0">
+                    <a href="#" class="">Sign In</a>
+                    <a href="#" class="bg-white bg-opacity-20 py-2 px-3 rounded-md">Sign Up</a>
+                </div>
+            </nav>
+        </div>
+
+    </header>
+
+    <!--Hero-->
+    <section class="bg-new-primary text-white text-center">
+        <div class="container pt-10 px-3">
+            <h1 class="text-5xl font-bold md:w-1/2 mx-auto">Ready for SaaS Websites Crafted by TailGrids</h1>
+            <p class="mt-3 md:w-1/3 mx-auto">Example Template for SaaS, Software, and App Landing Page. Crafted with
+                TailGrids
+                Components by TailGrids
+                Team</p>
+            <div class="mt-5 flex justify-center items-center space-x-6">
+                <a href="#" class="px-6 py-4 bg-white rounded-lg text-new-black">Get Started Now</a>
+                <a href="#" class="font-medium flex items-center"><span
+                        class="flex items-center justify-center w-14 h-14 bg-white rounded-full text-new-primary mr-3"><i
+                            class="fa-solid fa-play fa-2x"></i></span>
+                    Play Intro Video</a>
+            </div>
+            <div class="w-full mt-16">
+                <img src="./images/hero.png" class="mx-auto" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!--Services-->
+    <section class="services bg-new-gray-light">
+        <div class="container pl-3 flex flex-col lg:flex-row lg:items-center lg:justify-between py-36 md:space-x-20">
+
+            <div class="lg:w-2/5">
+                <h3 class="text-xl text-new-primary font-semibold">Crafted with TailGrids Components</h3>
+                <p class="text-4xl font-bold text-new-black mt-3">200+ Tailwind CSS UI Components & Counting</p>
+                <div class="flex flex-col space-y-12 mt-14">
+                    <div
+                        class="grid grid-row-2 gap-x-8 gap-y-2 items-center justify-center grid-flow-row sm:grid-flow-col group">
+                        <span
+                            class="text-white text-2xl bg-new-primary w-20 h-20 rounded-full flex items-center justify-center font-semibold row-span-2 duration-300 border-2 border-new-primary group-hover:bg-transparent group-hover:text-new-primary">01</span>
+                        <h4 class="text-xl font-semibold text-new-black ">Beautifully handcrafted
+                            components</h4>
+                        <p class="text-new-gray ">Lorem ipsum amet consectetur
+                            adipiscing do eiusmod
+                            tempor incididunt ut
+                            labore.</p>
+                    </div>
+                    <div
+                        class="grid grid-row-2 gap-x-8 gap-y-2 items-center justify-center grid-flow-row sm:grid-flow-col group">
+                        <span
+                            class="text-white text-2xl bg-new-primary w-20 h-20 rounded-full flex items-center justify-center font-semibold row-span-2 duration-300 border-2 border-new-primary group-hover:bg-transparent group-hover:text-new-primary">02</span>
+                        <h4 class="text-xl font-semibold text-new-black ">Pixel perfect design and code</h4>
+                        <p class="text-new-gray ">Lorem ipsum amet consectetur
+                            adipiscing do eiusmod
+                            tempor incididunt ut
+                            labore.</p>
+                    </div>
+                    <div
+                        class="grid grid-row-2 gap-x-8 gap-y-2 items-center justify-center grid-flow-row sm:grid-flow-col group">
+                        <span
+                            class="text-white text-2xl bg-new-primary w-20 h-20 rounded-full flex items-center justify-center font-semibold row-span-2 duration-300 border-2 border-new-primary group-hover:bg-transparent group-hover:text-new-primary">03</span>
+                        <h4 class="text-xl font-semibold text-new-black ">Fully responsive design</h4>
+                        <p class="text-new-gray ">Lorem ipsum amet consectetur
+                            adipiscing do eiusmod
+                            tempor incididunt ut
+                            labore.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-6 lg:mt-0 lg:pr-4">
+                <img src="./images/services.png" class="" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="py-32">
+        <div class="container px-3 text-center">
+            <h3 class="text-new-primary text-lg font-semibold">Our Team</h3>
+            <div class="text-new-black text-4xl font-bold mt-2">Meet Our Team</div>
+            <p class="text-new-gray mt-2 sm:w-2/5 mx-auto">There are many variations of passages of Lorem Ipsum
+                available
+                but the majority have suffered alteration in some form.</p>
+            <div class="flex flex-row flex-wrap align-center justify-center mt-10 gap-8 md:justify-between">
+                <div class="text-center">
+                    <img src="./images/team-1.png" class="rounded-full" alt="">
+                    <p class="text-new-black text-lg font-medium mt-5">Adveen Desuza</p>
+                    <p class="text-new-gray text-sm font-medium">Ui Designer</p>
+                    <div class="flex justify-evenly mt-4">
+                        <a href="#" class="text-new-gray"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" class="text-new-gray"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#" class="text-new-gray"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <img src="./images/team-2.png" class="rounded-full" alt="">
+                    <p class="text-new-black text-lg font-medium mt-5">Jezmin uniya</p>
+                    <p class="text-new-gray text-sm font-medium">Product Designer</p>
+                    <div class="flex justify-evenly mt-4">
+                        <a href="#" class="text-new-gray"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" class="text-new-gray"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#" class="text-new-gray"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <img src="./images/team-3.png" class="rounded-full" alt="">
+                    <p class="text-new-black text-lg font-medium mt-5">Andrieo Gloree</p>
+                    <p class="text-new-gray text-sm font-medium">App Developer</p>
+                    <div class="flex justify-evenly mt-4">
+                        <a href="#" class="text-new-gray"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" class="text-new-gray"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#" class="text-new-gray"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <img src="./images/team-4.png" class="rounded-full" alt="">
+                    <p class="text-new-black text-lg font-medium mt-5">Jackie Sanders
+                    </p>
+                    <p class="text-new-gray text-sm font-medium">Content Writer</p>
+                    <div class="flex justify-evenly mt-4">
+                        <a href="#" class="text-new-gray"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" class="text-new-gray"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#" class="text-new-gray"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-new-primary text-white">
+        <div class="container py-28 flex flex-col gap-4 items-center justify-center">
+            <h4 class="text-4xl font-bold text-center">What Are You Looking For? <span class="font-light block">Get
+                    Started
+                    Now</span>
+            </h4>
+            <p class="w-1/3 text-center">There are many variations of passages of Lorem Ipsum
+                but the majority have suffered in some form.</p>
+            <a href="#" class="bg-new-secondary py-3 px-7 rounded-md hover:bg-opacity-75">Explore Now</a>
+        </div>
+    </section>
+
+    <!--Pricing-->
+    <section class="bg-new-gray-light text-new-black">
+        <div class="container py-[7.5rem] text-center px-3">
+            <h3 class="text-new-primary text-lg font-semibold">Pricing Table</h3>
+            <div class="text-new-black text-4xl font-bold mt-2">Awesome Pricing Plan</div>
+            <p class="text-new-gray mt-2 sm:w-2/5 mx-auto">There are many variations of passages of Lorem Ipsum
+                available
+                but the majority have suffered alteration in some form.</p>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-20 gap-[1.875rem] justify-items-center">
+                <div
+                    class="bg-white p-[3.4375rem] sm:pr-24 max-w-[23.125rem] text-left rounded-xl sm:max-w-none w-full shadow-md">
+                    <h4 class=" text-xl font-medium">Starter</h4>
+                    <p class="text-4xl font-semibold mt-2"><span class="text-xl font-medium">$</span> 25.00 <span
+                            class="text-base text-new-gray font-medium">Per Month</span></p>
+                    <div class="font-medium text-lg text-new-black mt-10">Features</div>
+                    <ul class="text-new-gray space-y-3">
+                        <li class="mt-4">Up to 1 User</li>
+                        <li>All UI components</li>
+                        <li>Lifetime access</li>
+                        <li>Free updates</li>
+                    </ul>
+                    <a href="#"
+                        class="inline-block mt-12 py-4 px-8 bg-new-primary border font-semibold text-white rounded-md hover:border-new-gray-light hover:bg-transparent hover:text-new-primary">Purchase
+                        Now</a>
+                </div>
+                <div
+                    class="bg-white p-[3.4375rem] sm:pr-24 max-w-[23.125rem] text-left rounded-xl sm:max-w-none w-full shadow-md">
+                    <h4 class=" text-xl font-medium">Basic</h4>
+                    <p class="text-4xl font-semibold mt-2"><span class="text-xl font-medium">$</span> 25.00 <span
+                            class="text-base text-new-gray font-medium">Per Month</span></p>
+                    <div class="font-medium text-lg text-new-black mt-10">Features</div>
+                    <ul class="text-new-gray space-y-3">
+                        <li class="mt-4">Up to 5 User</li>
+                        <li>All UI components</li>
+                        <li>Lifetime access</li>
+                        <li>Free updates</li>
+                    </ul>
+                    <a href="#"
+                        class="inline-block mt-12 py-4 px-8 bg-new-primary border font-semibold text-white rounded-md hover:border-new-gray-light hover:bg-transparent hover:text-new-primary">Purchase
+                        Now</a>
+                </div>
+                <div
+                    class="bg-white p-[3.4375rem] sm:pr-24 max-w-[23.125rem] text-left rounded-xl sm:max-w-none w-full shadow-md">
+                    <h4 class=" text-xl font-medium">Premium</h4>
+                    <p class="text-4xl font-semibold mt-2"><span class="text-xl font-medium">$</span> 25.00 <span
+                            class="text-base text-new-gray font-medium">Per Month</span></p>
+                    <div class="font-medium text-lg text-new-black mt-10">Features</div>
+                    <ul class="text-new-gray space-y-3">
+                        <li class="mt-4">Unlimited User</li>
+                        <li>All UI components</li>
+                        <li>Lifetime access</li>
+                        <li>Free updates</li>
+                    </ul>
+                    <a href="#"
+                        class="inline-block mt-12 py-4 px-8 bg-new-primary border font-semibold text-white rounded-md hover:border-new-gray-light hover:bg-transparent hover:text-new-primary">Purchase
+                        Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Testimonials-->
+    <section>
+        <div class="container py-28 text-center px-3">
+            <h3 class="text-new-primary text-lg font-semibold">Testimonials</h3>
+            <div class="text-new-black text-4xl font-bold mt-2">What our Users Says</div>
+            <p class="text-new-gray mt-2 sm:w-2/5 mx-auto">There are many variations of passages of Lorem Ipsum
+                available
+                but the majority have suffered alteration in some form.
+            </p>
+            <div class="flex flex-wrap gap-[30px] mt-16">
+                <div class="p-8 shadow-md text-left sm:w-50 md:w-33">
+                    <div class="text-new-yellow">
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                    </div>
+                    <p class="text-new-gray mt-4">
+                        Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're
+                        building a community.
+                    </p>
+                    <div class="flex items-center mt-6">
+                        <img src="./images/customer-1.png" class="mr-4 w-12 h-12" alt="">
+                        <div class="text-sm text-new-black font-semibold">
+                            Sabo Masties
+                            <span class="block text-[12px] text-new-gray">Founder @ Rolex</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-8 shadow-md text-left sm:w-50 md:w-33">
+                    <div class="text-new-yellow">
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                    </div>
+                    <p class="text-new-gray mt-4">
+                        Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're
+                        building a community.
+                    </p>
+                    <div class="flex items-center mt-6">
+                        <img src="./images/customer-2.png" class="mr-4 w-12 h-12" alt="">
+                        <div class="text-sm text-new-black font-semibold">
+                            Musharof Chowdhury
+                            <span class="block text-[12px] text-new-gray">Founder @ Ayro UI</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-8 shadow-md text-left sm:w-50 md:w-33">
+                    <div class="text-new-yellow">
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                    </div>
+                    <p class="text-new-gray mt-4">
+                        Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're
+                        building a community.
+                    </p>
+                    <div class="flex items-center mt-6">
+                        <img src="./images/customer-3.png" class="mr-4 w-12 h-12" alt="">
+                        <div class="text-sm text-new-black font-semibold">
+                            William Smith
+                            <span class="block text-[12px] text-new-gray">Founder @ Trorex</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Contact Us-->
+    <section class="bg-new-light-blue">
+        <div class="container px-3 py-32 flex flex-wrap items-center">
+            <div class="basis-full md:basis-2/3">
+                <h3 class="font-semibold uppercase text-new-black">Contact Us</h3>
+                <p class="font-semibold text-4xl mt-6 text-new-black lg:w-1/2">Let's talk about Love to hear from
+                    you.</p>
+
+                <div class="flex flex-wrap gap-x-16 gap-y-12 mt-36">
+                    <div class="grid grid-flow-col content-start gap-x-6 lg:basis-2/5">
+                        <img src="./images/location.svg" class="row-span-2" alt="">
+                        <h4 class="text-lg font-semibold">Our Location</h4>
+                        <p class="text-new-gray mt-2">401 Broadway, 24th Floor, Orchard Cloud View, London</p>
+                    </div>
+                    <div class="grid grid-flow-col content-start gap-x-6 lg:basis-3/6 auto-cols-max">
+                        <img src="./images/envelope.svg" class="row-span-3" alt="">
+                        <h4 class="text-lg font-semibold">How Can We Help?</h4>
+                        <p class="text-new-gray mt-2">info@yourdomain.com</p>
+                        <p class="text-new-gray">contact@yourdomain.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-white shadow-md p-4 lg:p-16 rounded-md mt-8 md:mt-0 basis-full md:basis-1/3">
+                <form action="" class="flex flex-col gap-6">
+                    <h4 class="text-3xl text-new-black font-semibold">Send us a Message</h4>
+                    <div>
+                        <label for="" class="block text-sm text-new-gray">Full Name *</label>
+                        <input type="text"
+                            class="w-full text-[15px] text-new-gray pl-0 border-0 border-b border-new-gray-light focus:border-0 focus:border-b focus:ring-0"
+                            placeholder="">
+                    </div>
+                    <div>
+                        <label for="" class="block text-sm text-new-gray">Email *</label>
+                        <input type="text"
+                            class="w-full text-[15px] text-new-gray pl-0 border-0 border-b border-new-gray-light focus:border-0 focus:border-b focus:ring-0"
+                            placeholder="">
+                    </div>
+                    <div>
+                        <label for="" class="block text-sm text-new-gray">Phone *</label>
+                        <input type="text"
+                            class="w-full text-[15px] text-new-gray pl-0 border-0 border-b border-new-gray-light focus:border-0 focus:border-b focus:ring-0"
+                            placeholder="">
+                    </div>
+                    <div>
+                        <label for="" class="block text-sm text-new-gray">Message *</label>
+                        <input type="text"
+                            class="w-full text-[15px] text-new-gray pl-0 border-0 border-b border-new-gray-light focus:border-0 focus:border-b focus:ring-0"
+                            placeholder="">
+                    </div>
+                    <button type="submit"
+                        class="py-3 px-10 font-medium bg-new-primary text-white rounded-md max-w-[120px]">Send</button>
+
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!--Brands-->
+    <section class="bg-new-gray-light">
+        <div class="container px-3 py-28 justify-center justify-items-center grid grid-cols-15 gap-10">
+            <img src="./images/brands-1.png" alt="">
+            <img src="./images/brands-2.png" alt="">
+            <img src="./images/brands-3.png" alt="">
+            <img src="./images/brands-4.png" alt="">
+        </div>
+    </section>
+
+
+    <footer class="bg-new-black">
+        <div class="container py-24 px-3 grid grid-cols-max-1 gap-8">
+            <div class="flex flex-col gap-6">
+                <img src="./images/logo.png" class="w-[129px] h-[44px]" alt="">
+                <p class="text-sm font-medium text-new-gray pr-12">We create digital experiences
+                    for brands and companies
+                    by using technology.</p>
+                <div class="flex gap-5 text-white">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                </div>
+            </div>
+            <nav class="flex flex-col text-new-gray gap-4">
+                <h4 class="mb-4 text-white text-lg font-bold">Company</h4>
+                <a href="#" class="text-sm font-medium hover:text-white duration-500">About company</a>
+                <a href="#" class="text-sm font-medium hover:text-white duration-500">Company services</a>
+                <a href="#" class="text-sm font-medium hover:text-white duration-500">Job opportunities</a>
+                <a href="#" class="text-sm font-medium hover:text-white duration-500">Creative people</a>
+            </nav>
+            <nav class="flex flex-col text-new-gray gap-4">
+                <h4 class="mb-4 text-white text-lg font-bold">Customer</h4>
+                <a href="#" class="text-sm font-medium hover:text-white duration-500">Client support</a>
+                <a href="#" class="text-sm font-medium hover:text-white duration-500">Latest news</a>
+                <a href="#" class="text-sm font-medium hover:text-white duration-500">Company story</a>
+                <a href="#" class="text-sm font-medium hover:text-white duration-500">Pricing packages</a>
+            </nav>
+            <nav class="flex flex-col text-new-gray gap-4">
+                <h4 class="mb-4 text-white text-lg font-bold">Additional</h4>
+                <a href="#" class="text-sm font-medium hover:text-white duration-500">Our story</a>
+                <a href="#" class="text-sm font-medium hover:text-white duration-500">Who we are</a>
+                <a href="#" class="text-sm font-medium hover:text-white duration-500">Our process</a>
+                <a href="#" class="text-sm font-medium hover:text-white duration-500">Latest news</a>
+            </nav>
+            <div class="flex flex-col text-new-gray gap-4">
+                <h4 class="mb-4 text-white text-lg font-bold">Latest blog</h4>
+                <div class="flex items-center gap-x-5">
+                    <img src="./images/blog-1.jpg" alt="">
+                    <a href="#" class="text-sm font-medium hover:text-white duration-500">I think really important to
+                        design with...</a>
+                </div>
+                <div class="flex items-center gap-x-5">
+                    <img src="./images/blog-1.jpg" alt="">
+                    <a href="#" class="text-sm font-medium hover:text-white duration-500">I think really important to
+                        design with...</a>
+                </div>
+
+            </div>
+        </div>
+        <div class="border-t border-new-gray py-9">
+            <div class="container text-new-gray text-sm font-medium flex justify-between items-center">
+                <div class="space-x-6">
+                    <a href="#" class="hover:text-white duration-500">Privacy policy</a>
+                    <a href="#" class="hover:text-white duration-500">Legal notice</a>
+                    <a href="#" class="hover:text-white duration-500">Terms of service</a>
+                </div>
+                <div>© Copyright 2023 - TailGrids</div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+
+
+</body>
+
+</html>
